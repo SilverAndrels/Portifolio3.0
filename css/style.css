@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+header a {
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: ease-out 0.5s;
+}
+
+header a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+section {
+    background-color: rgb(0, 0, 0);
+    font-size: 22px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    transition: 0.7s;
+    margin-bottom: 20px;
+}
+
+section:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+section li {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+footer {
+    font-size: 28px;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#txt p {
+    text-align: left;
+}
+
+#mobile {
+    display: none;
+}
+
+@media only screen and (max-device-width: 736px) {
+    section {
+        margin-top: 20px;
+        width: 250px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    header {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+        margin-bottom: 20px;
+        width: 250px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+
+    #mobile a {
+        padding: 5px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        transition: ease-out 0.5s;
+    }
+}
