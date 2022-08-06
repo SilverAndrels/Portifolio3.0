@@ -76,7 +76,7 @@ button:hover {
 @media only screen and (max-device-width: 736px) {
     section {
         font-size: 14px;
-        width: 200px;
+        width: 90%;
         padding: 20px;
     }
 }
